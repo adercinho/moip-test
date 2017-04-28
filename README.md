@@ -1,17 +1,26 @@
-# moip-test
+moip-test
+==================
 
-### Tecnologias/Frameworks utilizados:
-# Spring boot
-# Java 8
-
-
-## Rodar
-mvn spring-boot:run
-
-## URL acesso:
-http://localhost:8080/api/metrics/ranking
+Tecnologias e Frameworks utilizados.
+* Spring boot
+* Java 8
+* Maven 3
 
 
+Como rodar
+------
+```bash
+
+$ git clone https://github.com/adercinho/moip-test.git
+$ cd moip-test
+$ mvn spring-boot:run
+```   
+
+Como testar:
+---------
+[http://localhost:8080/api/metrics/ranking]
+
+```bash
 ################## RESULTADO #######################
 {
    "accessList":[
@@ -103,3 +112,4 @@ http://localhost:8080/api/metrics/ranking
       }
    ]
 }
+```  
