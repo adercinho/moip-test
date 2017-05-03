@@ -6,7 +6,7 @@ package br.com.moip.metrics.domain.model;
 public class Log {
 
     private String requestTo;
-    private int response_status;
+    private int responseStatus;
 
 
     public String getRequestTo() {
@@ -17,11 +17,11 @@ public class Log {
         this.requestTo = requestTo;
     }
 
-    public int getResponse_status() {
-        return response_status;
+    public int getResponseStatus() {
+        return responseStatus;
     }
 
-    public void setResponse_status(int response_status) {
-        this.response_status = response_status;
+    public void setResponseStatus(int responseStatus) {
+        this.responseStatus = responseStatus;
     }
 }
