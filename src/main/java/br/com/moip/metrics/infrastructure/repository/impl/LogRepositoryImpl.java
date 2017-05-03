@@ -42,7 +42,7 @@ public class LogRepositoryImpl implements LogRepository{
                     if(matcherUri.group(1) != null && matcheStatus.group(1) !=null) {
                         Log log = new Log();
                         log.setRequestTo(matcherUri.group(1));
-                        log.setResponse_status(Integer.parseInt(matcheStatus.group(1)));
+                        log.setResponseStatus(Integer.parseInt(matcheStatus.group(1)));
                         logs.add(log);
                     }
 

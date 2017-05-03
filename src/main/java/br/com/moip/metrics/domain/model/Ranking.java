@@ -15,7 +15,7 @@ public class Ranking {
     public Ranking(List<Log> logs) {
         logs.forEach(log -> {
             addRankingAccess(new Access(log.getRequestTo()));
-            addRankingWebhook(new Webhook(log.getResponse_status()));
+            addRankingWebhook(new Webhook(log.getResponseStatus()));
         });
 
         Collections.sort(webhookList);
